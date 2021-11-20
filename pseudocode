@@ -1,0 +1,13 @@
+
+edges = {}
+
+for each event
+    node = event.node
+    next5s = events in next 5 seconds
+    for each node2 in next5s
+        if node == node2:
+            continue
+        timediff = node2.time - node.time
+        edgelist = edges.get((node, node2), [])
+        edgelist.append(timediff)
+
