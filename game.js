@@ -433,7 +433,7 @@ var GameScene = new Phaser.Class({
             var sensorobj = this.add.circle(x/4, y/4, radius, color, alpha);
             sensorobj.id = sensor.deviceid;
             sensorobj.setInteractive();
-            this.input.setDraggable(sensorobj);
+            // this.input.setDraggable(sensorobj);
             sensors.push(sensorobj);
             // sensor.on('pointerdown', this.clickHandler, this);
         }, this);
