@@ -30,7 +30,7 @@ Our algorithm should be able to provide better results when given the real posit
 
 We have used our analysis of the data provided by Helvar to find the most common patterns of movement between sensors across different times of the day. 
 
-For each hour of the day, we have identified which pairs of sensors register the largest flow and show it in the animation.
+For each hour of the day, we have identified which pairs of sensors register the largest flow and show it in the following animation. We coded this animation using Phaser 3, a JavaScript simple game developing tool.
 
 The animation can be accessed here: https://healthymindtech.com/j2021-helvar-C1/
 
