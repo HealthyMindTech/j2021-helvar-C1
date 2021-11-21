@@ -26,6 +26,8 @@ We ended up with a reasonably close solution for the first challenge, as the alg
 
 Our algorithm should be able to provide better results when given the real position of a subset of sensors.
 
+The code for this is in the file `helvar_video.ipynb`
+
 ## Challenge 2:
 
 We have used our analysis of the data provided by Helvar to find the most common patterns of movement between sensors across different times of the day. 
