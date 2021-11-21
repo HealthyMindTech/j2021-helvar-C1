@@ -35,3 +35,15 @@ For each hour of the day, we have identified which pairs of sensors register the
 The animation can be accessed here: https://healthymindtech.com/j2021-helvar-C1/
 
 This information can be of use to identify common paths between areas in the building, and to identify the best locations for sensors in future projects.
+
+## Challenge 3:
+
+The third problem was identifying what is going on in the garage space where audio and motion sensors are installed. 
+
+Based on the audio data we can sort of identify the difference between different sounds via the spectrogram. This was through manual inspection but we think given more training data, we’d be able to classify the sounds automatically.
+
+We have performed audio dissection and spectrograms using librosa for tracking movements of objects in a very noisy garage. (Though we didn't integrate this into a final delivery as it was purely exploratory)
+
+To map out the audio, we did not have time to find proper deep learning models for identifying the differently sounding objects. 
+
+Furthermore after some research, we became fairly convinced that one algorithm will probably not cover the tracking of every kind of moving object, rather different types of sounds (e.g. rhythmic versus continuous) will require different approaches for proper tracking and determination of the distance 
