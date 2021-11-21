@@ -46,4 +46,7 @@ We have performed audio dissection and spectrograms using librosa for tracking m
 
 To map out the audio, we did not have time to find proper deep learning models for identifying the differently sounding objects. 
 
-Furthermore after some research, we became fairly convinced that one algorithm will probably not cover the tracking of every kind of moving object, rather different types of sounds (e.g. rhythmic versus continuous) will require different approaches for proper tracking and determination of the distance 
+Furthermore after some research, we became fairly convinced that one algorithm will probably not cover the tracking of every kind of moving object, rather different types of sounds (e.g. rhythmic versus continuous) will require different approaches for proper tracking and determination of the distance. 
+
+Link to repo: https://github.com/HealthyMindTech/junction-2021-floormagic
+
